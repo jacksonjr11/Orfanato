@@ -1,0 +1,33 @@
+/* animações */
+
+@keyframes up{
+    from{
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animate-up {
+    animation-name: up;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}
+
+
+@keyframes bottom {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.animate-bottom {
+    animation-name: bottom;
+    animation-duration: 4s;
+}
